@@ -3,3 +3,4 @@ tensorflow
 matplotlib
 gensim
 flask
+flask_cors

@@ -5,7 +5,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-model = keras.models.load_model('w2v_model.h5')
+model = keras.models.load_model('model.h5')
 word_index = keras.datasets.imdb.get_word_index()
 
 
